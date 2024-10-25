@@ -88,7 +88,6 @@ button:hover, button:active {
     background-color: #ccc;
 }
 
-
 /* pseudostyling for button */
 button:active {
     box-shadow: inset -1px -1px 9px #FFF,
@@ -100,6 +99,34 @@ button:active {
 }
 .image:hover{
     background-color: #ccc;
+}
+
+/* Remove the image hover effect */
+.image:hover {
+    background-color: transparent;
+}
+
+/* Style the GitHub button container */
+form button.num__key {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+}
+
+/* Make the image inherit the background color */
+form button.num__key img {
+    background-color: transparent;
+}
+
+/* Add hover effect to the entire button */
+form button.num__key:hover {
+    background-color: #ccc;
+}
+
+/* Make sure the image stays transparent on button hover */
+form button.num__key:hover img {
+    background-color: transparent;
 }
 
 /* operator keys color style */
